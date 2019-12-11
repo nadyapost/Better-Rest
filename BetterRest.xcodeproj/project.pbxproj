@@ -13,6 +13,7 @@
 		137FC21E23815908004D7673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137FC21D23815908004D7673 /* Assets.xcassets */; };
 		137FC22123815908004D7673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137FC22023815908004D7673 /* Preview Assets.xcassets */; };
 		137FC22423815908004D7673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137FC22223815908004D7673 /* LaunchScreen.storyboard */; };
+		13EA167223A0FB1600A600BF /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13EA167123A0FB1600A600BF /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		137FC22023815908004D7673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		137FC22323815908004D7673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137FC22523815908004D7673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EA167123A0FB1600A600BF /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				137FC21D23815908004D7673 /* Assets.xcassets */,
 				137FC22223815908004D7673 /* LaunchScreen.storyboard */,
 				137FC22523815908004D7673 /* Info.plist */,
+				13EA167123A0FB1600A600BF /* SleepCalculator.mlmodel */,
 				137FC21F23815908004D7673 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137FC21823815906004D7673 /* AppDelegate.swift in Sources */,
+				13EA167223A0FB1600A600BF /* SleepCalculator.mlmodel in Sources */,
 				137FC21A23815906004D7673 /* SceneDelegate.swift in Sources */,
 				137FC21C23815906004D7673 /* ContentView.swift in Sources */,
 			);
